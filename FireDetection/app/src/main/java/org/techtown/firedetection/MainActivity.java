@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setPositiveButton("예", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("http://114.108.69.93:8888/"));
+                Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("http://192.168.0.3:3000/"));
                 startActivity(intent);
             }
         });
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onButton1Clicked(View view){
-        Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("http://114.108.69.93:8888/"));
+        Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("http://192.168.0.3:3000/"));
         startActivity(intent);
     }
 
